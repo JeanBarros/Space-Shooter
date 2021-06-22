@@ -94,5 +94,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\1.png" />
+    <Resource Include="images\2.png" />
+    <Resource Include="images\3.png" />
+    <Resource Include="images\4.png" />
+    <Resource Include="images\5.png" />
+    <Resource Include="images\player.png" />
+    <Resource Include="images\purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sounds\Light-Years_v001.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

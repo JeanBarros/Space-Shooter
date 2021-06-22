@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Space_Shooter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Space Shooter" Height="615" Width="540">
+    <Canvas Name="Stage" Focusable="True" Background="Black" KeyDown="OnKeyDown" KeyUp="OnKeyUp">
+        <Rectangle Name="player" Height="50" Width="60" Fill="YellowGreen" Canvas.Left="246" Canvas.Top="524" />
+        <Label Name="scoreTxt" Content="Score: 0" FontSize="18" FontWeight="Bold"  Foreground="White"/>
+        <Label Name="damageTxt" Content="Score: 0" FontSize="18" FontWeight="Bold"  Foreground="White" Canvas.Left="419"/>
+    </Canvas>
 </Window>
